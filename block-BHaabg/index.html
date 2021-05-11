@@ -1,0 +1,94 @@
+<!-- ### Exercise
+    
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assests/stylesheet/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <title>Assinment-2|Positioning Content</title>
+</head>
+<body id="top">
+    <header class="header">
+        <div class="clearfix">
+            <a>
+                <img class="logo" src="assests/media/Logo.png" alt="logo">
+            </a>
+            <nav class="nav">
+                    <a href="#">home</a>
+                    <a href="#">gallery</a>
+                    <a href="#">about</a>
+                    <a href="#">contact</a>
+            </nav>           
+        </div>                  
+    </header>
+    <main>       
+        <section class="main-sec">
+            <article class="container clearfix">
+                <div class="col right">
+                    <h2>artical 1</h2>
+                    <p>
+                        Lorem ipsum dolor, totam earum tempora mollitia dicta quam veniam praesentium sed doloribus maxime veritatis eos ab ullam tempore suscipit fuga fugit ipsa eius?
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus sequi nobis ullam sed. Nobis hic aliquam assumenda, commodi pariatur labore sapiente error doloremque, deleniti a omnis incidunt, saepe tempora corrupti.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, totam earum tempora mollitia dicta quam veniam praesentium sed doloribus maxime veritatis eos ab ullam tempore suscipit fuga fugit ipsa eius?
+                        Lorem ipsum dolor, saepe tempora corrupti.
+                    </p>
+                </div>
+                <div class="col left">
+                    <img src="assests/media/bouquet.jpg" alt="Bouquet">
+                </div>
+            </article> 
+        </section>       
+        <section class="sub-sec">    
+            <div class="container clearfix">              
+            <div class="col gal">
+                <img src="assests/media/day.jpeg" alt="Day">                
+            </div>
+            <div class="col gal">
+                <img src="assests/media/lilly.jpeg" alt="Lilly">                
+            </div>
+            <div class=" col gal">
+                <img src="assests/media/orkids.jpeg" alt="Orkids">
+            </div>
+            <div class="col gal">
+                <img src="assests/media/rose.jpeg" alt="Rose">                
+            </div>
+            <div class="col gal">
+                <img src="assests/media/tulip.jpeg" alt="Tulip">                
+            </div>
+            <div class="col gal">
+                <img src="assests/media/Zarbera.jpeg" alt="Zarbera">
+            </div>
+        </div>
+    </section>    
+    </main>
+    <footer class="footer">
+        <a class="btn" href="#top">Top</a>
+        <nav>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </nav>
+    </footer>
+</body>
+</html>
+
