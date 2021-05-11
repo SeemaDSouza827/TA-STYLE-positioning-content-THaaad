@@ -96,17 +96,18 @@ table {
 }
 .right h2{
     font-size: 32px;
+    padding: 5px 15px;
     font-weight: 600;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
 .right p{
+    padding: 0 5px;
     font-size: 19px;
     line-height: 1.5;
 }
 .left img{
     width: 100%;
-    padding-top: 60px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -161,7 +162,8 @@ table {
     height: 22px;
     vertical-align: middle;
     text-decoration: none;
-    color: black;
+    color: beige;
+    border:2px solid beige;
     text-align: center;
     font-size: 20px;
     border-radius: 50%;
