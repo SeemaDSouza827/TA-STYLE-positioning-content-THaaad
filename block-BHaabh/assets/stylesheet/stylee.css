@@ -50,7 +50,7 @@ table {
 *,
 *::after,
 *::before{
-	content: "";
+	box-sizing: border-box;
 }
 .clearfix::before, .clearfix::after{
     content: "";
@@ -148,15 +148,15 @@ p{
 	text-align: center;
 }
 .board{
-	width: 100%;
+	width: 1200px;
 	margin: 0 auto;
-	padding: 0 40px;
+	/* padding: 0 40px; */
 }
 
 .pic{
-	width: 15%;
-	margin: 0 auto;
+	width: 20%;	
 	padding: 5px;
+	margin:  0 2%;
 	float: left;
 	text-align: center;
 	border: 1px solid rgb(189, 189, 189);
