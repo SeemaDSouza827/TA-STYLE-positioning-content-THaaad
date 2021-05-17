@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* customized */
+*,
+*::after,
+*::before{
+	content: "";
+}
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+body{
+	line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+	height: 300px;
+	padding-bottom:40px ;
+	background-color: rgb(79, 173, 250);
+}
+.header{
+	padding: 30px;
+	color:#fff;
+}
+.logo{
+	vertical-align: middle;
+	padding: 30px;
+	color: #fff;
+	text-align: center;
+	float: left;	
+}
+nav{
+	float: right;
+	padding: 30px 20px;
+	margin: 20px;
+}
+a{
+	text-decoration: none;
+	padding: 10px;
+	color: rgba(255, 255, 255, 0.678);
+}
+h1{
+	text-align: center;
+	width: 700px;
+	margin: 0 auto;
+	vertical-align: middle;
+	font-size: 36px;
+	color: #fff;	
+	padding: 150px 100px;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+}
+.para{
+	text-align: center;
+	display: inline-block;
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: hsla(0, 1%, 18%);
+	background-color:rgb(79, 173, 250) ;
+	text-transform: uppercase;
+}
+.part1{
+	margin: 6%;
+	padding: 10px;
+	width: 100%;	
+}
+h2{
+	font-size: 24px;
+	color:rgb(79, 173, 250);
+}
+h3{
+	font-size: 26px;
+	color:#fff;
+	text-align: center;
+}
+p{	
+	padding: auto;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 12px;
+	color: gray;
+}
+.ele{
+	width: 25%;
+	float: left;
+	padding:20px;
+}
+.btn{
+	background-color: blue;
+	width: 50px;
+	text-align: center;
+	color: #fff;
+}
+.part2{
+	height: 500px;
+	background-color: rgb(79, 173, 250);
+	text-align: center;
+}
+.board{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+
+.pic{
+	width: 15%;
+	margin: 0 auto;
+	padding: 5px;
+	float: left;
+	text-align: center;
+	border: 1px solid rgb(189, 189, 189);
+}
+.cir{
+	border-radius: 50%;
+}
+.tag{
+	width: 100px;
+ 	margin: 0 auto;
+	 text-align: center;
+ 	font-size: 16px;
+	padding-bottom: 30px;
+}
+.part3{
+	width:100%;
+	height: 500px;
+	float: left;	
+	background-color: #fff;
+	text-align: center;
+}
+h4{	
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 0;
+	font-size: 20px;
+	color: gray;
+}
+.element{
+	width: 100%;
+	float: left;
+	padding:20px;
+}
+.artical{
+	width: 45%;
+	float: left;
+	padding: 10px;
+	margin: 20px;
+}
+.footer{
+	background-color: #fff;
+	color:  grey;
+}
+small{
+	padding-left: 30px;
+}
+.cpy{
+	width: 25px;
+	height: 20px;
+	padding:0 5px;
+}
+hr{	
+	max-width: 100%;
+	border-bottom: 2px solid grey;
+}
+.nav a{
+	vertical-align: middle;
+	float: right;
+	padding: 0 5px;
+	color: rgb(79, 173, 250);
+}
